@@ -29,7 +29,7 @@ function loder () {
   document.querySelector(".loading-page").classList.add("fade-out");
 }
 function fadeOut (){
-  setInterval(loder ,3000)
+  setInterval(loder ,1000)
 }
 window.onload = fadeOut()
 
