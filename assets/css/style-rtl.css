@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+html{
+  direction: rtl;
+  text-align: right !important;
+}
+
+.title h2 , .content-title span{
+  font-family: 'Cairo', sans-serif;
+}
+
+/* ================================================================
+      navber arabic
+===================================================================
+*/
+.navbar .navbar-nav .nav-item .nav-dropdown {
+  direction: rtl;
+  text-align: right;
+}
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav {
+    margin-right: auto !important;
+}
+}
+/* ================================================================
+      header arabic  font-family: 'Cairo', sans-serif;
+===================================================================
+*/
+header .header-content {
+  direction: rtl;
+  text-align: right;
+}
+header .header-content .text span:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 12%;
+  left: 30%;
+  bottom: 31%;
+  background-color: #21baf28c;
+  z-index: -1;
+  border-radius: 43px;
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  -ms-border-radius: 43px;
+  -o-border-radius: 43px;
+}
+header .header-content .text span:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  width: 118%;
+  height: 12%;
+  right: 2%;
+  bottom: 24%;
+  background-color: #21baf28c;
+  z-index: -1;
+  border-radius: 43px;
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  -ms-border-radius: 43px;
+  -o-border-radius: 43px;
+}
+header .header-content p {
+  width: 243px;
+}
+/* ================================================================
+      testimonials arabic  
+===================================================================
+*/
+
+.testimonials {
+  text-align: center;
+  direction: ltr;
+}
+.testimonials .carousel-inner .carousel-item p:last-child {
+  text-align: right !important;
+}
+
+/* ================================================================
+      started arabic  
+===================================================================
+*/
+.started form .form-group .form-control{
+  direction: ltr;
+}
+.started .started-item {
+  color: #fff;
+  text-align: right;
+}
+/* ================================================================
+      footer arabic  
+===================================================================
+*/
+footer{
+  text-align: right;
+}
+footer .footer-bottom .icon-footer {
+  text-align: left;
+}
+footer .footer-bottom a {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.204545px;
+  color: #1E2833;
+}
+footer .footer-bottom span {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.204545px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+/* ================================================================
+      page  about arabic  
+===================================================================
+*/
+
+.comoany-goals .card .card-title {
+  font-family: Cairo;
+}
+/* ================================================================
+      page  about arabic  
+===================================================================
+*/
+
+.services-details {
+  background: #FAF9F9;
+  direction: rtl;
+}
+.services-details .services-details-item h3 {
+  text-align: right;
+  font-family: Cairo;
+}
+.services-details .services-details-item p{
+  text-align: right;
+}
+.services-details .services-details-item.ar-right{
+  text-align: right !important;
+
+}
+
+@media (max-width: 767px){
+  .services-details {
+    text-align: right !important;
+  }
+.services-details .services-details-item h2, .services-details .services-details-item p {
+    text-align: right !important;
+}
+}
+
+/* ================================================================
+      page  book meeting arabic  
+===================================================================
+*/
+
+.meeting .meeting-item .card .card-body {
+  padding: 1.25rem 0;
+  text-align: right;
+}
+/* ================================================================
+      page  single-project arabic  
+===================================================================
+*/
+
+
+.project-description {
+  text-align: right;
+}
+.project-description h2{
+  font-family: Cairo;
+}
+.project-description p{
+  font-family: Changa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 29px;
+  color: #737E82;
+
+}
+.view-website {
+  direction: ltr;
+}
+/* ================================================================
+      page  blog arabic  
+===================================================================
+*/
+.blog{
+  text-align: right;
+}
+.blog .blog-item .content-blog {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  right: 5% !important;
+}
+.curd-blog .curd-blog-item .content-curd {
+  bottom: 20%;
+  right: 7%;
+  text-align: right;
+}
+.project-description .link-app {
+  position: absolute;
+  top: 4%;
+  right: 59%;
+}
+
+.our-projects {
+  text-align: center;
+  background-color: #FAF9F9;
+  padding: 0% 2% 4%;
+  direction: rtl;
+}
+.single-blog-details .curd-blog-item .content-curd {
+  position: absolute;
+  bottom: 7%;
+  right: 12px;
+  text-align: right;
+}
