@@ -220,6 +220,12 @@ footer .footer-top .row .footer-item ul li:hover{
   right: 7%;
   text-align: right;
 }
+.curd-blog .curd-blog-item .btn-Public {
+  position: absolute;
+  right:66% !important;
+  bottom: 5%;
+  width: 30%;
+}
 .project-description .link-app {
   position: absolute;
   top: 4%;

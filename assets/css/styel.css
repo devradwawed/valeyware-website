@@ -2498,6 +2498,7 @@ color: #0F0E0E;
   position: absolute;
   right: 5%;
   bottom: 5%;
+  width: 30%;
 }
 .curd-blog .pagination .page-item{
   filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.12));
@@ -2659,8 +2660,8 @@ color: #0F0E0E;
   position: absolute;
   right: 5%;
   bottom: 5%;
-  
 }
+
 .single-blog-details .curd-blog-item .content-curd h5 {
   font-family: Changa;
   font-style: normal;
@@ -2669,6 +2670,10 @@ color: #0F0E0E;
   line-height: 38px;
   letter-spacing: 0.0125em;
   color: #FAF9F9 ; 
+}
+.single-blog-details .curd-blog-item .content-curd p{
+  color: #FAF9F9 ; 
+
 }
 /* 
 ========================================================================
