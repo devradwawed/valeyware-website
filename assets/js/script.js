@@ -5,8 +5,10 @@ $(document).ready(function() {
     if(wScroll >= 100){
       $("nav").addClass("bgWidth");
       $(".navbar-collapse").removeClass("show")
+      $(".navbar-toggler").removeClass("close");
     }else{
       $("nav").removeClass("bgWidth")
+      $(".navbar-toggler").removeClass("close");
     }
   });
   $(".navbar-toggler").click(function () { 
