@@ -63,6 +63,14 @@ header .header-content .text span:nth-child(3)::after {
 header .header-content p {
   width: 243px;
 }
+@media (min-width: 300px) and (max-width: 390px){
+header .header-content .text {
+    font-size: 9vw;
+    line-height: 48px;
+    width: 292px;
+    height: 96px;
+}
+}
 /* ================================================================
       testimonials arabic  
 ===================================================================
@@ -116,6 +124,9 @@ footer .footer-bottom span {
   color: #000000;
   mix-blend-mode: normal;
   opacity: 0.5;
+}
+footer .footer-bottom .icon-footer {
+  text-align: center;
 }
 /* ================================================================
       page  about arabic  

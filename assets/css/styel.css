@@ -1112,6 +1112,14 @@ font-family: 'Changa', sans-serif;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+@media (max-width:1114px) {
+  .started form .form-group .btn-Public {
+    position: absolute;
+    position: absolute;
+    top: -20%;
+    right: .8%;
+  }
+}
 @media (max-width:991px) {
   .started form .form-group .form-control{
     padding-left: 6%;
@@ -1121,21 +1129,14 @@ font-family: 'Changa', sans-serif;
   position: absolute;
   position: absolute;
   top: -45%;
-  right: 1.9%;
+  right: .8%;
 }
   
 }
+
 @media (max-width:768px) {
-  .started form .form-group .btn-Public {
-    position: absolute;
-    position: absolute;
-    top: -45%;
-    right: 1.9%;
-  }
-}
-@media (max-width:767px) {
   .started {
-    margin-top: 20%;
+    margin-top: 6%;
   }
   .started .started-item{
     text-align: center;
@@ -1146,8 +1147,8 @@ font-family: 'Changa', sans-serif;
   .started form .form-group .btn-Public {
     position: absolute;
     position: absolute;
-    top: -13%;
-    right: 1.9%;
+    top: -40%;
+    right: 1%;
   }
 }
 @media (max-width:575px) {
@@ -1157,7 +1158,18 @@ font-family: 'Changa', sans-serif;
   .started form .form-group .btn-Public {
     position: absolute;
     position: absolute;
-    top: -16%;
+    top: -10%;
+    right: 1.9%;
+  }
+  .started {
+    margin-top: 20%;
+  }
+}
+@media (max-width:320px) {
+  .started form .form-group .btn-Public {
+    position: absolute;
+    position: absolute;
+    top: -4%;
     right: 1.9%;
   }
 }
@@ -1947,6 +1959,8 @@ color: #0F0E0E;
 */
 .contact-us{
   background: #FAF9F9;
+  padding-top: 0;
+  padding-bottom: 11%;
 }
 .contact-us iframe{
   height: 100%;
@@ -2103,13 +2117,10 @@ color: #0F0E0E;
 }
 @media (max-width:767px) {
   .our-projects .nav .nav-item .nav-link {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width:380px) {
-  .our-projects .nav .nav-item .nav-link {
-    font-size: 13px;
-  }
   .our-projects .btn-Public{
     width: 62%;
   }
@@ -2709,7 +2720,6 @@ color: #0F0E0E;
   margin: 5% 0;
   animation:loder 8s ease-in infinite ;
   -webkit-animation:loder 8s ease-in infinite ;
-  opacity: .7;
 }
 .loading-page .content p{
   margin-top: 10%;
@@ -2729,7 +2739,7 @@ color: #0F0E0E;
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
-  opacity: 1;
+
 }
 }
 .lds-ellipsis {
@@ -2788,4 +2798,7 @@ color: #0F0E0E;
   100% {
     transform: translate(24px, 0);
   }
+}
+.bg{
+  background-color: rgba(0, 0, 0, 0.25) ;
 }

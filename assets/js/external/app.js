@@ -45,6 +45,7 @@ generateCalendar = (month, year) => {
             // }
         }
         calendar_days.appendChild(day)
+        
     }
 }
 
