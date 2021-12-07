@@ -128,6 +128,9 @@ footer .footer-bottom span {
 footer .footer-bottom .icon-footer {
   text-align: center;
 }
+footer .footer-top .row .footer-item ul li:hover{
+  margin-right: 1%;
+}
 /* ================================================================
       page  about arabic  
 ===================================================================
