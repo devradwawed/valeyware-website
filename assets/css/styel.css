@@ -1575,6 +1575,7 @@ width: 100%;
   height: 1px;
   width: 31px;
 }
+
 .meeting .meeting-item .calendar .calendar-day-hover{
   transition: all .4s ease-in;
   -webkit-transition: all .4s ease-in;
@@ -1587,8 +1588,13 @@ width: 100%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 .meeting .meeting-item .calendar .calendar-day-hover:hover{
   background: #EEF7FE;
+}
+.meeting .meeting-item .calendar .calendar-day-hover.dayShow{
+  background-color: #69D3FA;
+  color: #fff;
 }
 
 .meeting .meeting-item .calendar .calendar-week-day div{

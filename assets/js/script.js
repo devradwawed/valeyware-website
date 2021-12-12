@@ -16,26 +16,26 @@ $(document).ready(function() {
   });
   // calendar
   let calendarDays = Array.from( document.querySelectorAll(".calendar-days .calendar-day-hover "));
+  let months = Array.from(document.querySelectorAll(".month-list div "));
+  
+  // calendarDays.forEach((button) =>{
+  //   button.addEventListener("click" , clicEvent);
+  //     function clicEvent(e){
+  //       let valueContent =  e.target.textContent;
+  //       button.style.backgroundColor ="#69D3FA"
+  //       button.style.color ="#fff"
+  //       alert( "Date " + valueContent);
+  //     }
 
-  calendarDays.forEach((button) =>{
+  //   })
 
-    button.addEventListener("click" , clicEvent);
-
-      function clicEvent(e){
-        let valueContent =  e.target.textContent;
-        button.style.backgroundColor ="#69D3FA"
-        button.style.color ="#fff"
-        alert( "Date " + valueContent);
-      }
-
-    })
 
     // loder
     function loder () {
       document.querySelector(".loading-page").classList.add("fade-out");
     }
     function fadeOut (){
-      setInterval(loder ,1000)
+      setInterval(loder ,900)
     }
     window.onload = fadeOut()
 

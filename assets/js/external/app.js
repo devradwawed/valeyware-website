@@ -20,6 +20,7 @@ generateCalendar = (month, year) => {
     calendar_days.innerHTML = ''
 
     let currDate = new Date()
+    
     if (!month) month = currDate.getMonth()
     if (!year) year = currDate.getFullYear()
 
@@ -43,7 +44,15 @@ generateCalendar = (month, year) => {
             // if (i - first_day.getDay() + 1 === currDate.getDate() && year === currDate.getFullYear() && month === currDate.getMonth()) {
             //     day.classList.add('curr-date')
             // }
+            day.addEventListener("click" , dayClick)
+
+            function dayClick(e){
+            let valueDay= e.target.textContent;
+            console.log(valueDay)
+            day.classList.toggle("dayShow");
+            }
         }
+        
         calendar_days.appendChild(day)
         
     }
@@ -60,6 +69,7 @@ month_names.forEach((e, index) => {
         generateCalendar(index, curr_year.value)
     }
     month_list.appendChild(month)
+    
 })
 
 let month_picker = calendar.querySelector('#month-picker')
