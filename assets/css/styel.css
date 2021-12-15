@@ -2314,7 +2314,15 @@ color: #0F0E0E;
   text-align: center;
 }
 .view-website.mobile-app .view-content{
-  margin-bottom: 52px;
+  margin-bottom: 30px;
+}
+.view-website.mobile-app .nav-link {
+  display: block;
+  padding: 0;
+}
+.view-website.mobile-app  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: transparent;
 }
 .view-website.mobile-app .view-content h4{
   font-family: Urbanist;
@@ -2323,6 +2331,7 @@ color: #0F0E0E;
   font-size: 19px;
   line-height: 36px;
   text-transform: capitalize;
+  color: #000000;
 }
 .view-website.mobile-app .view-content h4 span{
   color: #21BAF2;
